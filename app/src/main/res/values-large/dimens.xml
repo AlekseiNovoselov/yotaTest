@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="request_fragment_text_size">24sp</dimen>
+    <dimen name="request_fragment_button_text_size">32sp</dimen>
+    <dimen name="request_fragment_edit_text_size">36sp</dimen>
+    <dimen name="request_page_button_padding">20dp</dimen>
+    <dimen name="response_page_text_size">14sp</dimen>
+</resources>

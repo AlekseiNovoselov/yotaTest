@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvInputField"
+        android:layout_above="@+id/etInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/request_page_input_text_view"
+        android:textSize="@dimen/request_fragment_text_size"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <EditText
+        android:id="@+id/etInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/request_fragment_edit_text_size"
+        android:layout_centerVertical="true">
+     </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etInputField"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/request_page_button_padding"
+        android:text="@string/request_page_button_text"
+        android:textSize="@dimen/request_fragment_button_text_size">
+    </Button>
+
+</RelativeLayout>

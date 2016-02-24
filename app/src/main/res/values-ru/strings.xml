@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yota Браузер</string>
+    <string name="request_page_title">Запрос</string>
+    <string name="response_page_title">Код страницы</string>
+    <string name="request_page_input_text_view">
+        Пожалуйста, введите URL\n Например: https://ya.ru или http://kubanzsk.ru
+    </string>
+    <string name="request_page_button_text">Отправить</string>
+    <string name="no_connection">отсутствует Интернет-соединение</string>
+    <string name="cannot_send_message_text">ошибка запроса по данному адресу</string>
+    <string name="internal_auth_client_error_text">неизвестная ощибка</string>
+    <string name="request_progress_dialog_text">выполнение запроса</string>
+    <string name="response_load_from_db_progress_dialog_text">загрузка данных из БД</string>
+    <string name="invalid_url">неверный url</string>
+    <string name="unreachechanable_url">по адресу ничего не нашлось</string>
+</resources>
